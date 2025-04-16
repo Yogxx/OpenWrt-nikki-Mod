@@ -24,7 +24,7 @@ return view.extend({
 
         m = new form.Map('nikki');
 
-        s = m.section(form.NamedSection, 'editor', 'editor', _('<p><strong>📝 Editor</strong></p>'));
+        s = m.section(form.NamedSection, 'editor', 'editor', _('<p><strong>❖ 𝕰𝖉𝖎𝖙𝖔𝖗</strong></p>'));
 
         o = s.option(form.ListValue, '_file', _('Choose File'));
         o.optional = true;
