@@ -10,23 +10,23 @@
         }
     },
     "admin/services/nikki/config": {
-        "title": "App Config",
+        "title": "Apps",
         "order": 10,
         "action": {
             "type": "view",
             "path": "nikki/app"
         }
     },
-    "admin/services/nikki/profile": {
-        "title": "Profile",
-        "order": 20,
+    "admin/services/nikki/advancededitor": {
+        "title": "Advanced Editor",
+        "order": 15,
         "action": {
             "type": "view",
-            "path": "nikki/profile"
+            "path": "nikki/advancededitor"
         }
     },
     "admin/services/nikki/mixin": {
-        "title": "Mixin Config",
+        "title": "Mixin",
         "order": 30,
         "action": {
             "type": "view",
@@ -34,7 +34,7 @@
         }
     },
     "admin/services/nikki/proxy": {
-        "title": "Proxy Config",
+        "title": "Proxy",
         "order": 40,
         "action": {
             "type": "view",
@@ -47,14 +47,6 @@
         "action": {
             "type": "view",
             "path": "nikki/editor"
-        }
-    },
-    "admin/services/nikki/advancededitor": {
-        "title": "Advanced Editor",
-        "order": 60,
-        "action": {
-            "type": "view",
-            "path": "nikki/advancededitor"
         }
     },
     "admin/services/nikki/log": {
