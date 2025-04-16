@@ -22,7 +22,7 @@ return view.extend({
 
         m = new form.Map('nikki');
 
-        s = m.section(form.NamedSection, 'log', 'log', _('<p><strong>📄 Log</strong></p>'));
+        s = m.section(form.NamedSection, 'log', 'log', _('<p><strong>❖ 𝕷𝖔𝖌</strong></p>'));
 
         s.tab('app_log', _('App Log'));
 
